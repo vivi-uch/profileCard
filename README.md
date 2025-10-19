@@ -16,7 +16,7 @@ It’s a simple **Profile Card** built with **HTML, CSS, and JavaScript** that d
 - JavaScript (for dynamic time display)
 
 ## 🚀 Live Demo
-[View Project Here]([#](https://profile-card-six-omega.vercel.app/))  
+[View Project Here](https://profile-card-six-omega.vercel.app/)  
 
 
 ---
