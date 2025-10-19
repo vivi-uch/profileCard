@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vivian’s Profile Card</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div data-testid="test-profile-card" class="profile-card">
+      <header class="header">
+        <img
+          src="https://i.postimg.cc/rpCGPXHp/profilecard.jpg"
+          alt="Profile picture of Vivian"
+          data-testid="test-user-avatar"
+          class="avatar"
+        />
+        <h2 data-testid="test-user-name" class="name">
+          Okonkwo Vivian Uchechi
+        </h2>
+      </header>
+
+      <p data-testid="test-user-bio" class="bio">
+        I am a Frontend Developer passionate about crafting responsive,
+        accessible web experiences with React and TailwindCSS. I enjoy
+        problem-solving, and building with purpose
+      </p>
+
+      <nav
+        data-testid="test-user-social-links"
+        class="social-links"
+        aria-label="Social Links"
+      >
+        <a
+          href="https://github.com/vivi-uch"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-testid="test-user-social-github"
+          >GitHub</a
+        >
+        <a
+          href="https://linkedin.com/in/vivian-okonkwo"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-testid="test-user-social-linkedin"
+          >LinkedIn</a
+        >
+        <a
+          href="https://www.instagram.com/vivian_uch?igsh=bHFnNDE4MGtjajd6"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-testid="test-user-social-instagram"
+          >Instagram</a
+        >
+      </nav>
+
+      <section class="info-card hobbies">
+        <h3>Hobbies</h3>
+        <ul data-testid="test-user-hobbies">
+          <li>Watching Kdramas</li>
+          <li>Singing</li>
+          <li>Coding Projects</li>
+          <li>Math Talks</li>
+          <li>Learning</li>
+          <li>Eating</li>
+        </ul>
+      </section>
+
+      <section class="info-card dislikes">
+        <h3>Dislikes</h3>
+        <ul data-testid="test-user-dislikes">
+          <li>Porridge</li>
+          <li>Proud people</li>
+          <li>Bugs before deadlines 😭</li>
+        </ul>
+      </section>
+
+      <footer class="time-container">
+        <p>
+          Current Time (ms):
+          <span data-testid="test-user-time" id="current-time"></span>
+        </p>
+      </footer>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
